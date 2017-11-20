@@ -1,0 +1,36 @@
+ Data read in from file ./dat.txt
+ Total number of elements in dataset = 10
+ 5 sets of elements with pairwise association <= 0.85 requested
+ Number of singletons is 1
+ Number related to all 0
+ Connectivity = 0.111111
+ Using user supplied seed  1260646394 for Mersenne Twister
+ From 5 attempts 5 distinct sets found 
+ The sets of elements are arranged row by row with the deterministic output first 
+ subsequent rows are ordered in decreasing size
+
+ Number of elements from deterministic heuristic is 6
+ Largest Number of elements from random heuristic is 6
+ Smallest Number of elements from random heuristic is 5
+ Largest Maximal independent set has size 6 and multiplicity 4
+ Size distribution of independent sets is: 
+ Map Size 5 occurs 1 times 
+ Map Size 6 occurs 4 times 
+
+ Total number of distinct elements covered is 10
+ Total number of elements covered is 29
+ Printing Independent Sets first set is the Greedy Set
+
+ Set Size =  6            whyw_KPAF      anky_KPAF      wszo_KPAF      hhkk_KPAF      isyb_KPAF      jpyg_KPAF      
+
+ Set Size =  6            whyw_KPAF      anky_KPAF      hhkk_KPAF      kkmt_KPAF      jpyg_KPAF      qxsh_KPAF      
+
+ Set Size =  6            whyw_KPAF      anky_KPAF      wszo_KPAF      hhkk_KPAF      jpyg_KPAF      qxsh_KPAF      
+
+ Set Size =  6            whyw_KPAF      fovv_KPAF      hhkk_KPAF      kkmt_KPAF      isyb_KPAF      jpyg_KPAF      
+
+ Set Size =  5            anky_KPAF      vcfz_KPAF      hhkk_KPAF      kkmt_KPAF      isyb_KPAF      
+
+ Number of Processor Clock Ticks is 23567
+ Number of seconds is 0.023567
+-----------------------------------------------------------------
