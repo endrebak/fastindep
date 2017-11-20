@@ -1,0 +1,29 @@
+about:
+    home: 'https://github.com/endrebak/fastindep'
+    summary: "A fast random heuristic algorithm for identifying large sets of unrelated individuals and unrelated markers"
+
+package:
+  name: fastindep
+  version: '1.0.0'
+
+source:
+  fn: e04c806bb1410cf1dbd1534991c46d696aec6723.zip
+  md5: 2fd32477444978ec7662df77226cc896
+  url: https://github.com/wanpinglee/MOSAIK/archive/e04c806bb1410cf1dbd1534991c46d696aec6723.zip # pinned to a commit hash since the repo is not using tags
+  patches:
+    - osx-makefile.patch # [osx]
+    - linux.inc.patch # [linux]
+
+requirements:
+  build:
+    - gcc
+  run:
+    - libgcc
+
+test:
+  commands:
+    - MosaikAligner --help | grep Usage > /dev/null
+
+build:
+  number: 2
+  skip: False
